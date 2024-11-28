@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StringExtensionLibrary
 {
-    internal static class StringExtensions
+    public static class StringExtensions // Changed from 'internal' to 'public'
     {
         public static bool StartsWithUpper(this string input)
         {
@@ -16,3 +16,4 @@ namespace StringExtensionLibrary
         }
     }
 }
+
