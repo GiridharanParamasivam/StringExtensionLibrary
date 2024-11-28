@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{64AE28EC-6653-4D91-B25E-4021495077C7}|StringExtensionLibrary.csproj|solutionrelative:stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AE28EC-6653-4D91-B25E-4021495077C7}|StringExtensionLibrary.csproj|e:\\stringextensionlibrary\\stringextensionlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{64AE28EC-6653-4D91-B25E-4021495077C7}|StringExtensionLibrary.csproj|E:\\StringExtensionLibrary\\stringextensionlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{64AE28EC-6653-4D91-B25E-4021495077C7}|StringExtensionLibrary.csproj|solutionrelative:stringextensionlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "StringExtensions.cs",
               "ToolTip": "E:\\StringExtensionLibrary\\StringExtensions.cs",
               "RelativeToolTip": "StringExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T01:40:19.403Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "StringExtensionLibrary.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T01:39:12.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:39:12.059Z"
             }
           ]
         }

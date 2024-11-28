@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StringExtensionLibrary
+﻿namespace StringExtensionLibrary
 {
-    internal static class StringExtensions
+    public static class StringExtensions // Changed from 'internal' to 'public'
     {
         public static bool StartsWithUpper(this string input)
         {
