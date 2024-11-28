@@ -1,0 +1,32 @@
+trigger:
+  - main
+
+pool:
+  name: Self-hosted
+
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '8.x'
+
+  - script: dotnet restore
+    displayName: 'Restore NuGet Packages'
+
+  - script: dotnet build --configuration Release
+    displayName: 'Build Solution'
+
+  - script: dotnet pack --configuration Release -o $(Build.ArtifactStagingDirectory)
+    displayName: 'Pack NuGet Package'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathToPublish: '$(Build.ArtifactStagingDirectory)'
+      artifactName: 'nuget-packages'
+
+  - task: NuGetCommand@2
+    inputs:
+      command: 'push'
+      packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+      nuGetFeedType: 'internal'
+      publishVstsFeed: 'MyFeed'
